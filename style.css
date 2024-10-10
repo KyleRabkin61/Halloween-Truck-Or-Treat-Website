@@ -1,0 +1,17 @@
+body {
+    background: black;
+}
+
+.navbar {
+    background: purple;
+    height:100px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 30px;
+}
+  
+.nav-link:hover {
+    color: orange;
+}

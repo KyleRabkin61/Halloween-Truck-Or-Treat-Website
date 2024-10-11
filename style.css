@@ -15,7 +15,7 @@ Dark Purple: #0B192C
 
 body {
     background: linear-gradient(180deg, #000000 0%, #0B192C 70%, #1E3E62 100%);
-    height: 100vh;
+    height: 100%;
 }
 
 .navbar {
@@ -86,4 +86,14 @@ body {
 .join-btn:active {
     box-shadow: none;
     transition: 0.5s;
+}
+
+.what-is-trunk-or-treat-row {
+    padding-top: 300px;
+}
+
+.what-is-trunk-or-treat {
+    height: 300px;
+    background: black;
+    padding: 100px;
 }

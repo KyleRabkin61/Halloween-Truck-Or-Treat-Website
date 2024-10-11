@@ -8,7 +8,7 @@ Dark Purple: #0B192C
 
 @font-face {
     font-family: 'Shlop';
-    src: url('/fonts/shlop/shlop\ rg.otf') format('truetype');
+    src: url("/fonts/shlop/shloprg.otf") format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -38,8 +38,8 @@ body {
 
 .title {
     background: #1E3E62;
-    height: clamp(250px,30vw,600px);
-    width:clamp(400px,65vw,1100px);
+    height: clamp(250px, 30vw, 600px);
+    width:clamp(400px, 65vw, 1100px);
     margin: 100px 0px 20px 0px;
 }
 

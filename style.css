@@ -1,8 +1,8 @@
 /* colors
 
 Orange: #FF6500
-Purple: #1E3E62
-Dark Purple: #0B192C
+Purple: #2c0237
+Dark Purple: #22002b
 
 */
 
@@ -14,12 +14,12 @@ Dark Purple: #0B192C
   }
 
 body {
-    background: linear-gradient(180deg, #000000 0%, #0B192C 60%, #1E3E62 100%);
+    background: linear-gradient(180deg, #000000 0%, #22002b 60%, #2c0237 100%);
     height: 100%;
 }
 
 .navbar {
-    background: #1E3E62;
+    background: #2c0237;
     height:100px;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .title {
-    background: #1E3E62;
+    background: #2c0237;
     height: clamp(300px, 30vw, 600px);
     width:clamp(450px, 65vw, 1100px);
     margin: 100px 0px 20px 0px;
@@ -75,7 +75,7 @@ body {
 .join-btn {
     background: #FF6500;
     color: white;
-    box-shadow: 0px 0px 15px 3px #0B192C;
+    box-shadow: 0px 0px 15px 3px #2c0237;
     transition: 0.5s;
     width:clamp(120px,19vw,250px);
     height:clamp(50px, 8vw, 100px);
@@ -84,7 +84,7 @@ body {
 }
 
 .join-btn:hover {
-    background: #0B192C;
+    background: #22002b;
     box-shadow: 0px 0px 15px 1px white;
     transition: 0.5s;
     color: white;

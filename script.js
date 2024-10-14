@@ -1,5 +1,5 @@
 $('document').ready(() => {
-    
+
 })
 
 // audio for join btn

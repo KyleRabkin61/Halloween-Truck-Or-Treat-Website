@@ -101,13 +101,14 @@ body {
 }
 
 .what {
-    height: clamp(350px,30vw,600px);
     background: url('imgs/trunk-or-treat/IMG_9170.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    height: clamp(350px,30vw,600px);
     border: 5px solid white;
     color: white;
+    font-family: 'Shlop';
 }
 
 .question {
@@ -130,4 +131,10 @@ body {
 
 .the-answer {
     font-size: clamp(5px, 1.3rem, 150px);
+}
+
+footer {
+    margin-top: 50px;
+    color: white;
+    height: 100px;
 }

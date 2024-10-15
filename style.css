@@ -142,12 +142,19 @@ body {
     margin: 100px 20px;
 }
 
+.pic-descrip {
+    display: none;
+}
+
+/* individual gallery pic */
+
 .pic1 {
     background: url('imgs/trunk-or-treat/IMG_9170.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 600px;
+    border: 10px solid white;
 }
 
 .pic2 {
@@ -155,7 +162,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
+    border: 10px solid white;
 }
 
 .pic3 {
@@ -163,7 +171,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
+    border: 10px solid white;
 }
 
 .pic4 {
@@ -171,7 +180,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
+    border: 10px solid white;
 }
 
 .pic5 {
@@ -180,6 +190,7 @@ body {
     background-position: center center;
     background-size: cover;
     height: 600px;
+    border: 10px solid white;
 }
 
 .pic6 {
@@ -187,7 +198,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
+    border: 10px solid white;
 }
 
 .pic7 {
@@ -195,7 +207,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
+    border: 10px solid white;
 }
 
 .pic8 {
@@ -203,7 +216,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
+    border: 10px solid white;
 }
 .pic9 {
     background: url('imgs/trunk-or-treat/IMG_9170.png');
@@ -211,6 +225,7 @@ body {
     background-position: center center;
     background-size: cover;
     height: 600px;
+    border: 10px solid white;
 }
 
 footer {

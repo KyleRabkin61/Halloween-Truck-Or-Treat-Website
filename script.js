@@ -1,56 +1,56 @@
 $('document').ready(() => {
     $('.pic1').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip1').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip1').fadeOut()
     })
 
     $('.pic2').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip2').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip2').fadeOut()
     })
 
     $('.pic3').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip3').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip3').fadeOut()
     })
 
     $('.pic4').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip4').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip4').fadeOut()
     })
 
     $('.pic5').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip5').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip5').fadeOut()
     })
 
     $('.pic6').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip6').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip6').fadeOut()
     })
 
     $('.pic7').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip7').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip7').fadeOut()
     })
 
     $('.pic8').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip8').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip8').fadeOut()
     })
 
     $('.pic9').on('mouseenter', () => {
-        $('.pic-descrip').fadeIn()
+        $('.pic-descrip9').fadeIn()
     }).on('mouseleave', () => {
-        $('.pic-descrip').fadeOut()
+        $('.pic-descrip9').fadeOut()
     })
 })
 

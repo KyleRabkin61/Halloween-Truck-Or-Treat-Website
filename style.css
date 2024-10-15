@@ -120,9 +120,6 @@ body {
 .answer {
     height: clamp(350px,30vw,600px);
     background: #FF6500;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     border: 5px solid white;
     color: white;
     padding: 20px;
@@ -131,6 +128,89 @@ body {
 
 .the-answer {
     font-size: clamp(5px, 1.3rem, 150px);
+}
+
+/* showcase css */
+
+.showcase-title {
+    color: white;
+    font-family: 'Shlop';
+    margin-top: 100px;
+}
+
+.gallery-row {
+    margin: 100px 20px;
+}
+
+.pic1 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.pic2 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.pic3 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.pic4 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.pic5 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.pic6 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.pic7 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.pic8 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+.pic9 {
+    background: url('imgs/trunk-or-treat/IMG_9170.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
 }
 
 footer {

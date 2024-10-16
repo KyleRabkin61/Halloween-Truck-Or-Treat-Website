@@ -4,6 +4,10 @@ $('document').ready(() => {
     }).on('mouseleave', function() {
         $(this).find('.pic-descrip').fadeOut();
     });
+
+    $('.more-info-btn').on('click', function() {
+        $('.flyer').fadeToggle()
+    })
 })
 
 // audio for join btn

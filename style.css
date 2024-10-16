@@ -11,7 +11,7 @@ Dark Purple: #22002b
     src: url("fonts/shlop/shloprg.otf") format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 body {
     background: linear-gradient(180deg, #000000 0%, #22002b 60%, #2c0237 100%);
@@ -20,17 +20,17 @@ body {
 
 .navbar {
     background: #2c0237;
-    height:100px;
+    height: 150px;
 }
 
 .nav-link {
     font-family: 'Shlop';
     color: white;
-    font-size: 30px;
+    font-size: clamp(25px, 5vw, 50px);
     transition: 0.5s;
     padding: 0 3vw 0 3vw;
 }
-  
+
 .nav-link:hover {
     color: #FF6500;
     transition: 0.5s;
@@ -38,8 +38,8 @@ body {
 
 .title {
     background: #2c0237;
-    height: clamp(300px, 30vw, 600px);
-    width:clamp(450px, 65vw, 1100px);
+    height: clamp(500px, 30vw, 600px);
+    width: clamp(450px, 65vw, 1100px);
     margin: 100px 0px 20px 0px;
     border: 5px solid white;
     transition: 0.5s;
@@ -59,7 +59,7 @@ body {
     font-size: clamp(35px, 5vw, 80px);
 }
 
-.title:hover .title-text{
+.title:hover .title-text {
     color: #FF6500;
     text-decoration-skip-ink: none;
     text-decoration-color: #FF6500;
@@ -76,17 +76,18 @@ body {
     background: #FF6500;
     color: white;
     transition: 0.5s;
-    width:clamp(130px,19vw,250px);
-    height:clamp(50px, 8vw, 100px);
-    font-size: clamp(15px,2vw, 25px);
-    padding-top: clamp(10px,2.2vw, 30px);
+    width: clamp(130px, 19vw, 250px);
+    height: clamp(50px, 8vw, 100px);
+    font-size: clamp(15px, 2vw, 25px);
+    padding-top: clamp(10px, 2.2vw, 30px);
     text-decoration: none;
     border-radius: 10px;
     font-family: "Fira Sans", sans-serif;
+    border: 2px solid white;
 }
 
 .join-btn:hover {
-    background: #22002b;
+    background: #FF6500;
     box-shadow: 0px 0px 25px 1px white;
     transition: 0.5s;
     color: white;
@@ -96,6 +97,7 @@ body {
     box-shadow: 0px 0px 5px 1px white;
     transition: 0.5s;
     color: white;
+    background: #f06101;
 }
 
 .what-row {
@@ -108,7 +110,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: clamp(400px,30vw,600px);
+    height: clamp(400px, 30vw, 600px);
     border: 5px solid white;
     color: white;
     font-family: 'Shlop';
@@ -121,7 +123,7 @@ body {
 }
 
 .answer {
-    height: clamp(400px,30vw,600px);
+    height: clamp(400px, 30vw, 600px);
     background: #FF6500;
     border: 5px solid white;
     color: white;
@@ -130,14 +132,8 @@ body {
 }
 
 .the-answer {
-    font-size: clamp(5px, 1.3rem, 150px);
+    font-size: clamp(5px, 1.2rem, 150px);
     font-family: "Fira Sans", sans-serif;
-}
-
-.flyer {
-    width:500px;
-    display: none;
-    border: white solid 2px;
 }
 
 .more-info-btn {
@@ -158,6 +154,17 @@ body {
     box-shadow: 0px 0px 15px 3px white;
 }
 
+.row-flyer {
+    height: clamp(300px, 50vw, 600px);
+    margin-top: 100px;
+}
+
+.flyer {
+    width: clamp(300px, 50vw, 600px);
+    display: none;
+    border: white solid 2px;
+}
+
 /* showcase css */
 
 .showcase-title {
@@ -168,7 +175,7 @@ body {
     background: #FF6500;
     width: 400px;
     margin: 100px auto;
-    padding:20px;
+    padding: 20px;
     border: white 5px solid;
 }
 
@@ -185,7 +192,6 @@ body {
 
 .pic-descrip {
     color: white;
-    font-family: 'Shlop';
     font-family: "Fira Sans", sans-serif;
     display: none;
     background: #FF6500;
@@ -265,8 +271,91 @@ body {
     height: 600px;
 }
 
+/* footer css*/
+
 footer {
-    margin-top: 50px;
+    margin-top: 300px;
+    bottom: 0;
+    width: 100%;
+    background: #1b0222;
+}
+
+.footer-img {
+    width: 200px;
+}
+
+.box {
+    padding: 20px;
+}
+
+.box .abt-us {
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: "Fira Sans", sans-serif;
+    text-transform: uppercase;
     color: white;
-    height: 100px;
+}
+
+.box .address {
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: "Fira Sans", sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.address-icon {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.box p {
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+}
+
+.box .text {
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+}
+
+.social a {
+    padding: 0 10px;
+}
+
+.social a span {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: white;
+    color: #FF6500;
+    border-radius: 5px;
+    transition: 0.25s;
+    box-shadow: #FF6500 0px 0px 20px 1px;
+}
+
+.social a span:hover {
+    background: #FF6500;
+    color: white;
+    box-shadow: white 0px 0px 20px 1px;
+    transition: 0.25s;
+}
+
+.stevens-credit {
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+}
+
+.my-credits {
+    background: black;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
 }

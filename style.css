@@ -291,6 +291,11 @@ body {
     border: white 5px solid;
 }
 
+.click-here-text {
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+}
+
 .schedule-row {
     margin: 200px;
 }

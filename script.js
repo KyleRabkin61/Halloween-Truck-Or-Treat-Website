@@ -2,27 +2,27 @@ $('document').ready(() => {
 
     // flyer script
 
-    $('.more-info-btn').on('click', function() {
+    $('.more-info-btn').on('click', function () {
         $('.flyer').fadeToggle()
     })
 
     // gallery script
 
-    $('.pic').on('mouseenter', function() {
+    $('.pic').on('mouseenter', function () {
         $(this).find('.pic-descrip').fadeIn();
-    }).on('mouseleave', function() {
+    }).on('mouseleave', function () {
         $(this).find('.pic-descrip').fadeOut();
     });
 
     // schedule script
 
-    $('.date').on('click', function() {
+    $('.date').on('click', function () {
         $('.date-answer').slideToggle()
     })
-    $('.set-up').on('click', function() {
+    $('.set-up').on('click', function () {
         $('.set-up-answer').slideToggle()
     })
-    $('.event').on('click', function() {
+    $('.event').on('click', function () {
         $('.event-answer').slideToggle()
     })
 
@@ -37,7 +37,7 @@ $('document').ready(() => {
         } else {
             $('#myBtn').fadeOut(200)
         }
-}
+    }
 
 
 })

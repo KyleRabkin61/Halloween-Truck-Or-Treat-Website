@@ -136,7 +136,7 @@ body {
 }
 
 .the-answer {
-    font-size: clamp(5px, 1.2rem, 150px);
+    font-size: clamp(5px, 1.5rem, 200px);
     font-family: "Fira Sans", sans-serif;
 }
 
@@ -364,6 +364,10 @@ body {
     width: clamp(300px, 20vw, 410px);
 }
 
+.bat {
+    width: 200px;
+}
+
 /* footer css*/
 
 footer {
@@ -446,7 +450,7 @@ footer {
 }
 
 .my-credits {
-    background: #22002b;
+    background: #0f0013;
     font-size: 15px;
     padding: 10px;
     font-family: "Fira Sans", sans-serif;

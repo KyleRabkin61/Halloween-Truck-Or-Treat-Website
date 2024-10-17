@@ -3,7 +3,7 @@ $('document').ready(() => {
     // flyer script
 
     $('.more-info-btn').on('click', function() {
-        $('.flyer').fadeIn()
+        $('.flyer').fadeToggle()
     })
 
     // gallery script

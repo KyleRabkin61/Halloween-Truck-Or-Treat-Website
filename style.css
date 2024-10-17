@@ -45,6 +45,7 @@ body {
     margin: 100px 0px 20px 0px;
     border: 5px solid white;
     transition: 0.5s;
+    border-radius: 10px;
 }
 
 .title:hover {
@@ -118,12 +119,14 @@ body {
     border: 5px solid white;
     color: white;
     font-family: 'Shlop';
+    border-radius: 10px;
 }
 
 .question {
     background: #FF6500;
     border: white 5px solid;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .answer {
@@ -133,6 +136,7 @@ body {
     color: white;
     padding: 20px;
     overflow: none;
+    border-radius: 10px;
 }
 
 .the-answer {
@@ -168,7 +172,7 @@ body {
 .flyer {
     width: clamp(300px, 50vw, 550px);
     display: none;
-    border: white solid 2px;
+    border: white solid 5px;
 }
 
 /* showcase css */
@@ -183,6 +187,7 @@ body {
     margin: 100px auto;
     padding: 20px;
     border: white 5px solid;
+    border-radius: 10px;
 }
 
 .gallery-row {
@@ -289,6 +294,7 @@ body {
     margin: 100px auto;
     padding: 20px;
     border: white 5px solid;
+    border-radius: 10px;
 }
 
 .click-here-text {
@@ -320,6 +326,8 @@ body {
     color: white;
     font-family: "Shlop";
     width: clamp(300px, 20vw, 410px);
+    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .date-answer {
@@ -329,6 +337,7 @@ body {
     font-family: "Fira Sans", sans-serif;
     color: black;
     width: clamp(300px, 20vw, 410px);
+    border-radius: 0 0 10px 10px;
 }
 
 .set-up {
@@ -339,6 +348,7 @@ body {
     color: white;
     font-family: "Shlop";
     width: clamp(300px, 20vw, 410px);
+    border-radius: 10px 10px 0 0;
 }
 
 .set-up-answer {
@@ -348,6 +358,7 @@ body {
     font-family: "Fira Sans", sans-serif;
     color: black;
     width: clamp(300px, 20vw, 410px);
+    border-radius: 0 0 10px 10px;
 }
 
 .event {
@@ -358,6 +369,7 @@ body {
     color: white;
     font-family: "Shlop";
     width: clamp(300px, 20vw, 410px);
+    border-radius: 10px 10px 0 0;
 }
 
 .event-answer {
@@ -367,6 +379,7 @@ body {
     font-family: "Fira Sans", sans-serif;
     color: black;
     width: clamp(300px, 20vw, 410px);
+    border-radius: 0 0 10px 10px;
 }
 
 .bat {
@@ -479,7 +492,13 @@ footer {
     border-radius: 10px;
     font-size: 18px;
     font-family: "Urbanist", sans-serif;
+    transition: background 0.25s;
   }
+
+#myBtn:hover {
+    background: #FF6500;
+    transition: 0.25s;
+}
 
 /* scrollbar */
 

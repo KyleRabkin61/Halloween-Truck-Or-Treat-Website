@@ -279,48 +279,89 @@ body {
 
 /* schedule */
 
+.schedule-title {
+    color: white;
+    font-family: 'Shlop';
+    font-size: 80px;
+    margin-top: 100px;
+    background: #FF6500;
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: white 5px solid;
+}
+
 .schedule-row {
     margin: 200px;
 }
 
 .schedule-question {
-    margin: 20px;
+    margin: 20px 0;
+}
+
+.schedule-question h1 {
+    font-size: 30px;
+}
+
+.schedule-question p {
+    font-size: 25px;
 }
 
 .date {
     background: #FF6500;
-    padding: 20px;
+    padding: 50px;
     cursor: pointer;
+    border: 5px solid white;
+    color: white;
+    font-family: "Shlop";
+    width: clamp(300px, 20vw, 410px);
 }
 
 .date-answer {
     background: white;
-    padding: 20px;
+    padding: 50px;
     display: none;
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+    width: clamp(300px, 20vw, 410px);
 }
 
 .set-up {
     background: #FF6500;
-    padding: 20px;
+    padding: 50px;
     cursor: pointer;
+    border: 5px solid white;
+    color: white;
+    font-family: "Shlop";
+    width: clamp(300px, 20vw, 410px);
 }
 
 .set-up-answer {
     background: white;
-    padding: 20px;
+    padding: 50px;
     display: none;
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+    width: clamp(300px, 20vw, 410px);
 }
 
 .event {
     background: #FF6500;
-    padding: 20px;
+    padding: 50px;
     cursor: pointer;
+    border: 5px solid white;
+    color: white;
+    font-family: "Shlop";
+    width: clamp(300px, 20vw, 410px);
 }
 
 .event-answer {
     background: white;
-    padding: 20px;
+    padding: 50px;
     display: none;
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+    width: clamp(300px, 20vw, 410px);
 }
 
 /* footer css*/

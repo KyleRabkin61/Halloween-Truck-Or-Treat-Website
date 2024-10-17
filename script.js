@@ -1,13 +1,32 @@
 $('document').ready(() => {
+
+    // flyer script
+
+    $('.more-info-btn').on('click', function() {
+        $('.flyer').fadeIn()
+    })
+
+    // gallery script
+
     $('.pic').on('mouseenter', function() {
         $(this).find('.pic-descrip').fadeIn();
     }).on('mouseleave', function() {
         $(this).find('.pic-descrip').fadeOut();
     });
 
-    $('.more-info-btn').on('click', function() {
-        $('.flyer').fadeIn()
+    // schedule script
+
+    $('.date').on('click', function() {
+        $('.date-answer').slideToggle()
     })
+    $('.set-up').on('click', function() {
+        $('.set-up-answer').slideToggle()
+    })
+    $('.event').on('click', function() {
+        $('.event-answer').slideToggle()
+    })
+
+    // back to top script
 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };
